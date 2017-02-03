@@ -36,13 +36,15 @@ function get(name,address)
 end
 
 if tArgs[1] == "download" or tArgs[1] == "dl" then
-	get("market","BztihKh3")
-	get("refill","cds0sp3C")
-	get("time","6zRMTLyF")
-	get("turtle","7mnsWVwz")
-	get("blueprint","kQ7xueqL")
-	get("simulate","Th40FmCz")
-	get("multisetup","y7t1FUbY")
+	get("market","https://raw.githubusercontent.com/GuitarMusashi616/MultiSchematicTurtle/master/market.lua")
+	get("refill","https://raw.githubusercontent.com/GuitarMusashi616/MultiSchematicTurtle/master/refill.lua")
+	get("time","https://raw.githubusercontent.com/GuitarMusashi616/MultiSchematicTurtle/master/time.lua")
+	get("turtle","https://raw.githubusercontent.com/GuitarMusashi616/MultiSchematicTurtle/master/turtle.lua")
+	get("blueprint","https://raw.githubusercontent.com/GuitarMusashi616/MultiSchematicTurtle/master/blueprint.lua")
+	get("simulate","https://raw.githubusercontent.com/GuitarMusashi616/MultiSchematicTurtle/master/simulate.lua")
+	get("multisetup","https://raw.githubusercontent.com/GuitarMusashi616/MultiSchematicTurtle/master/multisetup.lua")
+	get("textutilsFIX","https://raw.githubusercontent.com/GuitarMusashi616/MultiSchematicTurtle/master/textutilsFIX.lua")
+	get("grid","https://raw.githubusercontent.com/GuitarMusashi616/MultiSchematicTurtle/master/grid.lua")
 	return
 else
 	assert(tArgs[1],"no tArgs[1]")
